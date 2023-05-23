@@ -17,7 +17,7 @@ N/A . This is a web application using an URL link. https://braydenday.github.io/
 
 ## Usage
 
-A website created to schedule your work day!
+A website created to see the weather!
 
 ![weather-dashboard](/Assets/Screenshot1.png?raw=true "Weather Dashboard")
 
