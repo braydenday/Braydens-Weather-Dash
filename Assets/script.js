@@ -48,6 +48,7 @@ $(document).ready(function () {
                 localStorage.setItem("history", JSON.stringify(history));
                 createRow(searchTerm);
             }
+
 // this function will clear previous searched content and only display 5 day forecast for current day today
             $("#today").empty();
 
@@ -118,5 +119,10 @@ $(document).ready(function () {
             }
         });
     }
-
+// this will clear your search fields on the city once you refresh the page, if it gets to long
+    $("#clearFieldsBtn").click(function (event) {
+        event.preventDefault;
+        $("textarea").val("");
+        localStorage.clear();
+      });
 });
