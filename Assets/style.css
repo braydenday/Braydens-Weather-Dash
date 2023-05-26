@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+#forecast {
+    position: absolute;
+    left: -3%;
+}
+
+h1 {
+    margin-bottom: 0%;
+    background-image: linear-gradient(to right, rgba(0, 212, 255, 100), rgba(9, 9, 121, 100) , rgba(0, 212, 255, 100));
+}
+
 body {
     background: grey;
 }
